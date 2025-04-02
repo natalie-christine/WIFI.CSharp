@@ -1,0 +1,5 @@
+﻿Name	Anzahl	Höchste Zahl
+Österreich	6	45
+Deutschland	6	49
+Italien	6	90
+Schweden	7	35

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WIFI.CSharp.Lernen/1.0.0": {
+        "runtime": {
+          "WIFI.CSharp.Lernen.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WIFI.CSharp.Lernen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
