@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Datentransfer (DTO)">
+    <Position X="6.453" Y="1.681" Height="0.337" Width="1.507" />
+  </Comment>
+  <Comment CommentText="Anwendungskontext">
+    <Position X="0.502" Y="1.745" Height="0.337" Width="1.507" />
+  </Comment>
+  <Comment CommentText="Geschäftsdienste">
+    <Position X="2.195" Y="1.719" Height="0.337" Width="1.507" />
+  </Comment>
+  <Comment CommentText="Datendienste">
+    <Position X="4.47" Y="1.68" Height="0.337" Width="1.507" />
+  </Comment>
+  <Class Name="WIFI.Anwendung.Infrastruktur" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastruktur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.SprachenManager" Collapsed="true">
+    <Position X="1.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SprachenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.AppObjekt" Collapsed="true">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppObjekt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.FensterManager" Collapsed="true">
+    <Position X="3.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FensterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Controller.SprachenController" Collapsed="true">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\SprachenController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Daten.Sprache" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Daten\Sprache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Daten.Sprachen" Collapsed="true">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Daten\Sprache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.Anwendung.Controller.FensterController" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="WIFI.Anwendung.AppObjekt" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.438" Y="2.812" />
+        <Point X="3.438" Y="3.625" />
+        <Point X="4.5" Y="3.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\FensterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
