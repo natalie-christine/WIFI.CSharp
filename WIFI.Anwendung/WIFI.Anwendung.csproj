@@ -4,6 +4,32 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>WIFI OÖ GmbH</Authors>
+    <Product>3881 C# Komplettausbildung</Product>
+    <Description>Stellt die Infrastruktur für eine WIFI .Net Anwendung bereit</Description>
+    <Copyright>© 2024 WIFI OÖ GmbH</Copyright>
+    <AssemblyVersion>2024.0.0.0</AssemblyVersion>
+    <Title>WIFI Kernanwendung</Title>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.de.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources - Kopieren.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
 
 </Project>

@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("WIFI.Anwendung")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("WIFI OÖ GmbH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("© 2024 WIFI OÖ GmbH")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Stellt die Infrastruktur für eine WIFI .Net Anwendung bereit")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2024.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("WIFI.Anwendung")]
+[assembly: System.Reflection.AssemblyProductAttribute("3881 C# Komplettausbildung")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WIFI.Anwendung")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2024.0.0.0")]
 
 // Von der MSBuild WriteCodeFragment-Klasse generiert.
 
