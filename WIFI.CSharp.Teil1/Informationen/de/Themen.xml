@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfThema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Thema Name="Allgemeine Information" Datei="Allgemein.txt" />
+	<Thema Name="Struktur einer C# Datei" Datei="Struktur.txt" />
+	<Thema Name="Binärentscheidung" Datei="Binär.txt" />
+	<Thema Name="Fallentscheidung" Datei="Fallentscheidung.txt" />
+	<Thema Name="Zählschleife" Datei="Zählen.txt" />
+	<Thema Name="Abweiseschleife" Datei="Abweisen.txt" />
+	<Thema Name="Durchlaufeschleife" Datei="Durchlaufen.txt" />
+</ArrayOfThema>
