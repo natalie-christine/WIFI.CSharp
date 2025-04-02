@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WIFI.CSharp.Teil1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AktuellerSprachcode" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InformationspfadRelativ" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Informationen</Value>
+    </Setting>
+    <Setting Name="BeimBeendenFragen" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="InformationViewerTyp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WIFI.CSharp.Teil1.Views.TextViewer</Value>
+    </Setting>
+    <Setting Name="BegrüßungViewerTyp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WIFI.CSharp.Teil1.Views.Begrüßung</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

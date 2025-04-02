@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Firmenframework">
+    <Position X="0.509" Y="0.5" Height="0.291" Width="3.267" />
+  </Comment>
+  <Comment CommentText="ViewModel (VM)">
+    <Position X="4.259" Y="0.5" Height="0.291" Width="3.267" />
+  </Comment>
+  <Comment CommentText="Model (M)">
+    <Position X="8.009" Y="0.5" Height="0.291" Width="3.267" />
+  </Comment>
+  <Comment CommentText="Views (V)">
+    <Position X="11.759" Y="0.5" Height="0.291" Width="1.492" />
+  </Comment>
+  <Class Name="WIFI.CSharp.Teil1.ViewModels.Anwendung">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <Members>
+      <Field Name="_AktuellerInhalt" Hidden="true" />
+      <Field Name="_AktuellesThema" Hidden="true" />
+      <Field Name="_IstBegrüßung" Hidden="true" />
+      <Field Name="_ThemenManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAEAARAAAAAACgYIAAAQACAgAAAAQABAAAAEAQAAAA=</HashCode>
+      <FileName>ViewModels\Anwendung.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WIFI.Anwendung.AppObjekt">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WIFI.Anwendung.Infrastruktur">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WIFI.CSharp.Teil1.Models.ThemenController">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ThemenController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.CSharp.Teil1.Models.ThemenManager">
+    <Position X="8" Y="1" Width="1.5" />
+    <Members>
+      <Field Name="_Controller" Hidden="true" />
+      <Field Name="_Konfigurationspfad" Hidden="true" />
+      <Field Name="_Liste" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQAAAEAAQCAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ThemenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.CSharp.Teil1.Models.Themen">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Thema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.CSharp.Teil1.Models.Thema">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\Thema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIFI.CSharp.Teil1.ViewModels.Begrüßung">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ViewModels\Begrüßung.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WIFI.CSharp.Teil1.Views.Hauptfenster">
+    <Position X="11.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Hauptfenster.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WIFI.CSharp.Teil1.Views.ThemenViewer">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ThemenViewer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WIFI.CSharp.Teil1.ViewModels.Information">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <Members>
+      <Field Name="_Text" Hidden="true" />
+      <Field Name="_Titel" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAACAABAAEAAAAgAAAAAAAAAAABAAAAAAAACABQAAA=</HashCode>
+      <FileName>ViewModels\Information.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WIFI.CSharp.Teil1.Views.TextViewer">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\TextViewer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WIFI.CSharp.Teil1.Views.Begrüßung">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Begrüßung.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="WIFI.CSharp.Teil1.ViewModels.IAppInhalt">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ViewModels\IAppInhalt.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,14 @@
+﻿<Application x:Class="WIFI.CSharp.Teil1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WIFI.CSharp.Teil1"
+             >
+    <Application.Resources>
+        
+        <!-- Für die alternative Farbe der Anwendung-->
+        <SolidColorBrush 
+            x:Key="Alternativfarbe"
+            Color="#339900" />
+
+    </Application.Resources>
+</Application>
